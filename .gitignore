@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+finly_env/
+ENV/
+.venv/
+.python-version
+
+# VSCode / IDE config
+.vscode/
+.idea/
+
+# Python-related
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pdm.toml
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# Environment variables
+.env
+.env.*
+
+# Pytest
+.cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Database / App runtime stuff
+*.sqlite3
+*.db
+*.pid
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Uvicorn logs
+*.log
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+
+# MongoDB keys or dump files (if used)
+*.pem
+dump/
