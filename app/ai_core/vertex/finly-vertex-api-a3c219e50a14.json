@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "finly-vertex-api",
+  "private_key_id": "a3c219e50a14fbe62e3f73e61290adc533ad9758",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDjdaouDIdlvd+g\nHhzxn9tHaC0H6USvJaOIqJS2FDcSA+7j2JkZUnyjbOtEF1sr4/fb0redCp2eo/wD\nnFh5R/FZi6rYpdsHmmKxbBc0QkrKk1jwiAKytpgunM2rQHDZFHlVj9MwE5mPsTEM\nbkawCAHiNJ/iYjZLWfKJLL6RNCgPtY4Uh5Vsf3rzgHd0rfOhHiTijG6wRThBjKlB\nZmnLhPmSdOZOg/+qAg0f5y9sWxvYETdhk8g6AESj+S4GZ9zWHxQ1OtHvWsvxwziZ\nNCsLjgqU6BlI3i+qXe9+mbe6kLygs1jpUovW2lwqM2r6GvXBXzrqm0j01Xv06ONx\nBJDnk1ThAgMBAAECggEAA94o7r+xoAzb7AqvC9B1J7BGucB2oEgn0SeqtbOUzHvg\nI07i1ZUl6kKBzVEyBfD1B+978KdGTwpd+0gR52gOMNYI6ZuyZIf0dIIQcp1LonO3\nJV9ECnrD44uw4fVb0I6CUgPlf7G0S1xO56BKwpde7tQzFs6m5TOfm0O1RDNVQ2UW\n/Fp5yG4Sj4xn8KNi0JGshhFPrr2fQvmt26mEzO4vyps5u8eDIC9lKHRzk1O3OHQl\ndi6bAn8HfF9yLeLNQESVZHHYYBSIYBTMqoWQ7EPoZGw4UI/RA62Bj/+eSTQ83eOQ\nL8zmyGYj7e1I8GZJSMXb0Rlk04tiRlK9OW4jcmvDwQKBgQD6xUmnk3o7CKzR+om3\neCoJw5MgVDMZlRm39+KRPqIgWj7OhRoZbKPhVMzsfL/3jnfjsd6jhqcP8hlmMnvV\nIuk42gfsp5LGgIetun14cddF/klOQnvNTCFPa4CkzU5UnUVKTTty7guLfENBfSfg\n8qLwFzxzW4tcQSSSfBK2WaWWMQKBgQDoM+8CXyGyyT0DLBPvmR2CnDn4pO+Q6oY9\nHGdtUpk2L/66ztAgPHG2v7nBHtKMye0dx9nHAqFIlnoZkacy0DY42CrgtASjbEDn\nMx6Un3Ub/wUTx8aK1n0e1ryWAHRVkZVIbxVzdqzu3ynBiYg9b0ZLBtrq5mgpm+lT\n9i6pP1YNsQKBgDDc9Gckw3JxVEtuCBup3HcelrJ79aEMfoBsWsd2btzi+M4A/X7q\nvlwPzAZgoH86UX4akIlImZDv2aciOyLitJMRWO3yERWAwe9GIWCwvgOzctE+/ySX\nqv3wspZqMtMl+fRqbCUO4U0Cn5BJNNYOMVWbEXpg4hzNzLSGXJcPjMZhAoGAILaY\nWJwwcjC5wMWn9Vx79NevryEFg0QXL2reA1/cp+6xE35pgfEiEB4IvHVsMluMZWKv\ngsMTF9fjUdDcXmNJEE8cE1YpRSDOMARarZOdexk9jODbTtoS/JJCNVvRB/Eft/m2\navLwQCL+jf6jTAxuOcm4c9mMGTiW8bZAMqXyqLECgYA7NdqFhZ1wE2FihLL1q3Qf\ngHe7KR+6krl+e6pfrE8MmKxZ1EUy6rUrLzamIEUtlfBKw0Gdtj1tN7z+qsTdlIi+\noenMZZBio8lkn1mwJG2OHuIdcKcHEob26ifTHaa6OBjOokuEBT5Eyo8L79H9yZXs\nzGDJBoK4iAq1o49KJF8ypw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "finly-vertex-api@finly-vertex-api.iam.gserviceaccount.com",
+  "client_id": "115258342525767147382",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/finly-vertex-api%40finly-vertex-api.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,14 +1,20 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+import vertexai
 from contextlib import asynccontextmanager
 
 from app.db.mongodb import connect_to_mongo
 from app.api.v1.api_router import router as api_router
+from app.core.config import settings
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    vertexai.init(
+        project=settings.VERTEX_SERVICE_ID,
+        location="us-central1"
+    )
     await connect_to_mongo()
     yield
 
