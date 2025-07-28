@@ -5,16 +5,17 @@ import vertexai
 from contextlib import asynccontextmanager
 
 from app.db.mongodb import connect_to_mongo
-from app.api.v1.api_router import router as api_router
+from app.api.api_router import router as api_router
+from app.web_sockets.router import router as web_socket_router
 from app.core.config import settings
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    vertexai.init(
-        project=settings.VERTEX_SERVICE_ID,
-        location="us-central1"
-    )
+    # vertexai.init(
+    #     project=settings.VERTEX_SERVICE_ID,
+    #     location="us-central1"
+    # )
     await connect_to_mongo()
     yield
 
@@ -36,4 +37,5 @@ app.add_middleware(
 
 
 # Register your versioned API router
-app.include_router(api_router, prefix="/api/v1")
+app.include_router(api_router, prefix="/api")
+app.include_router(web_socket_router, prefix="/ws")

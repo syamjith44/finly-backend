@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.api.v1.endpoints import assistant, auth, users
+from app.api.endpoints import assistant, auth, users
 
 router = APIRouter()
 
