@@ -1,8 +1,19 @@
-from vertexai.preview.generative_models import GenerativeModel
+from google import genai
+from google.genai.types import HttpOptions
 
-# model = GenerativeModel("gemini-2.5-pro")
 
-def ask_gemini(prompt: str) -> str:
-    # response = model.generate_content(prompt)
-    # return response.text
-    return ""
+def create_client():
+    return genai.Client(
+        vertexai=True, 
+        project="finly-vertex-api", 
+        location="us-central1",
+        http_options=HttpOptions(api_version="v1")
+    )
+
+
+def ask_gemini(client, prompt: str) -> str:
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=prompt,
+    )
+    return response.text

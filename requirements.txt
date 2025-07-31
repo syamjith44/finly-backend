@@ -53,4 +53,4 @@ pycparser==2.22
 python-jose==3.5.0 
 rsa==4.9.1 
 six==1.17.0
-google-cloud-aiplatform==1.104.0
+google-genai==1.27.0

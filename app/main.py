@@ -7,16 +7,13 @@ from contextlib import asynccontextmanager
 from app.db.mongodb import connect_to_mongo
 from app.api.api_router import router as api_router
 from app.web_sockets.router import router as web_socket_router
-from app.core.config import settings
+from app.ai_core.vertex.api import create_client
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # vertexai.init(
-    #     project=settings.VERTEX_SERVICE_ID,
-    #     location="us-central1"
-    # )
     await connect_to_mongo()
+    app.state.gemini_client = create_client()
     yield
 
 
